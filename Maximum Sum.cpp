@@ -1,5 +1,5 @@
 //CODECHEF
-//PRACTICE 9
+//PRACTICE 10
 
 #include<bits/stdc++.h>
 using namespace std;
