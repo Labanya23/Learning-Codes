@@ -1,4 +1,4 @@
-//CODEFORCE
+//CODECHEF
 //PRAC 12  NUM CODE
 
 #include <bits/stdc++.h>
