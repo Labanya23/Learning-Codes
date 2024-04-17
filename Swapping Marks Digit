@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,p=0,q=0,r,l;
+	    cin>>a>>b;
+	    //if(a<b){
+	   // while(a!=0){
+	        r=a%10;
+	       // p=p*10+r;
+	       p=r*10+a;
+	        a/=10;
+	   // }
+	    //}
+	    //else if(p<b){
+	   // while(b!=0){
+	        l=b%10;
+	        //q=q*10+r;
+	        q=l*10+b;
+	        
+	        
+	        b/=10;
+	    //}
+	   // }
+	    
+	    //int p=reverse(a.begin(),a.end());
+	    //int q=reverse(b.begin(),b.end());
+	    
+	    
+	    if(a>b || a>q || p>b || p>q){
+	        cout<<"Yes"<<endl;
+	    }
+	    else{
+	        cout<<"No"<<endl;
+	    }
+	}
+	return 0;
+
+}
+//WRONG ANSWER GETTING
